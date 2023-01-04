@@ -1,0 +1,202 @@
+body {
+    background-color: #1B2430;
+    background-image: url(DnD.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;  
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:768px) {
+    .lista {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.caja-1{
+    width: 600px;
+    height: 1000px;
+	background-color: #262932ed;
+    margin: auto;
+    border: solid #171717 3px;
+}
+
+@media (max-width:500px) {
+    .caja-1{
+        width: 600px;
+        height: 1100px;
+    } 
+}
+
+#title {
+    color: #bd9b8f;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#description {
+    color: rgba(255, 255, 255, 0.707);
+    padding: 10px 50px 20px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif
+}
+
+@media (max-width:500px) {
+    #description {
+        padding: 25px 100px 30px;
+        font-size: 18px;
+    }   
+}
+
+#survey-form {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.casilla {
+    text-align: center;   
+    
+}
+
+.mod {
+    text-align: left;
+    padding-left: 43%;
+}
+
+#name{
+    background-color: #dadada;
+    width : 400px;
+    height :25px;
+}
+
+@media (max-width:400px) {
+    #name{
+        width : 319px;
+    }
+}
+
+
+#email {
+    background-color: #dadada;
+    width : 400px;
+    height :25px;
+}
+
+@media (max-width:400px) {
+    #email{
+        width : 319px;
+    }
+}
+
+#number {
+    background-color: #dadada;
+    width : 400px;
+    height :25px;
+}
+
+@media (max-width:400px) {
+    #number{
+        width : 319px;
+    }
+}
+
+#dropdown{
+    background-color: #dadada;
+    width : 400px;
+    height :25px;
+}
+
+@media (max-width:400px) {
+    #dropdown{
+        width : 319px;
+    }
+}
+
+#comentarios {
+    background-color: #dadada;
+    width : 400px;
+    max-width: 400px;
+    height : 90px;
+    max-height: 90px;
+}
+
+@media (max-width:400px) {
+    #comentarios{
+        background-color: #dadada;
+        width : 319px;
+        max-width: 319px;
+        height : 90px;
+        max-height: 90px;
+    }
+}
+#name-label {
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    color: #d9d9d9;
+    font-weight:  bolder;
+    font-family: 'Marvel', sans-serif;
+
+}
+
+#email-label {
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    color: #d9d9d9;
+    font-weight:  bolder;
+    font-family: 'Marvel', sans-serif;
+
+}
+
+#number-label {
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    color: #d9d9d9;
+    font-weight:  bolder;
+    font-family: 'Marvel', sans-serif;
+}
+
+#dopdown {
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    color: #d9d9d9;
+    font-weight:  bolder;
+    font-family: 'Marvel', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    color: #d9d9d9;
+    font-weight:  bolder;
+    font-family: 'Marvel', sans-serif;
+}
+
+.mod{
+    color: #d9d9d9;
+}
+
+.casilla {
+    color: #d9d9d9;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Formulario1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Saira+Extra+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap" rel="stylesheet">
+</head>
+
+<body class="contenedor">
+    <!--Titulo y descripcion-->
+    <div class="lista">
+        <div class="caja-1">
+            <h1 id="title">  Formulario </h1>
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatum dolorem, vel cupiditate quaerat voluptate? Dolores numquam recusandae omnis inventore assumenda nostrum incidunt ipsum quibusdam quos voluptatum nam, provident libero.
+            <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quasi molestias nostrum in ipsum, quisquam debitis libero eum, adipisci, numquam provident? Enim fugiat necessitatibus beatae tenetur accusamus nemo incidunt accusantium.</p>
+
+            <!--Formulario-->
+            <form id=survey-form action="#">
+                <Div class="casilla">
+                    <label for="name" id="name-label">Nombre</label>
+                    <input id=name type="text" placeholder="Nombre" required>
+                    <br>
+                </Div>
+
+                <Div class="casilla">
+                    <label for="email" id="email-label">Correo Electronico</label>
+                    <input id="email" type="email" name="email" placeholder="Introduce tu email" required>
+                </Div>
+                <br>
+                <Div class="casilla">
+                    <label for="number" id="number-label">Edad: </label>
+                    <input id="number" type="number" name="edad" placeholder="Edad" min="1" max="99" required>
+                </Div>
+                <br>
+                <Div class="casilla">
+                    <label for="select" id="dopdown">Algo:</label>
+                    <select for=algo id=dropdown>
+                        <option disabled selected value>Seleccion</option>
+                        <option value="BE">Opcion 1</option>
+                        <option value="itd">Opcion 2</option>
+                        <option value="ten">Opcion 3</option>
+                    </select>
+                </Div>
+                <br>
+
+                <Div class="casilla">
+                    <p>Pregunta random:</p>
+                    <div class="mod">
+                        <input id="indoor" type="radio" name="indoor-outdoor" value="opcion 1">
+                        <label for="indoor"> Indoor</label>
+                        <br>
+                        <div class="blanco">
+                            <input id="outdoor" type="radio" name="indoor-outdoor" value="opcion2">
+                            <label for="outdoor"> Outdoor</label>
+                        </div>
+                    </div>
+                </Div>
+                <p>Seleccione varias opciones:</p>
+                <Div class="casilla">
+                    <label for="random"><input id="random" type="checkbox" name="algo"value="casilla 1"> Casilla 1</label>
+                    <br>
+                    <label for="random"><input id="random" type="checkbox" name="algo" value="casilla 2"> Casilla 2</label>
+                    <br>
+                    <label for="random"><input id="random" type="checkbox" name="algo" value="casilla 3"> Casilla 3</label>
+                </Div>
+
+                <Div class="casilla">
+                    <p>Observaciones:</p><textarea id="comentarios" name="comentarios" placeholder="Escribe tus comentarios aquí..."></textarea>
+                </Div>
+
+                <div class="casilla">
+                    <input button id="submit" type="submit" value="Completar"></button>
+                </Div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
